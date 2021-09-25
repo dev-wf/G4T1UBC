@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <meta http-equiv="refresh" content="0; URL='https://minecraft-js.vercel.app'"/>
+  </head>
+  <body>
+    <canvas id="glCanvas" width="640" height="480">Your browser doesn't appear to support the <code>&lt;canvas&gt;</code> element.</canvas>
+    <script id="shader-fs" type="x-shader/x-fragment">
+      void main(void) {
+        gl_FragColor = vec4(0.0, 1.0, 1.0, 1.0);
+      }
+    </script>
+    <script id="shader-vs" type="x-shader/x-vertex">
+      attribute vec3 aVertexPosition;
+
+      uniform mat4 uMVMatrix;
+      uniform mat4 uPMatrix;
+
+      void main(void) {
+        gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+      }
+    </script>
+    <script>
+       var canvas = document.getElementById('glCanvas');
+       var vertexShader = document.getElementById('shader-vs');
+       var fragmentShader = document.getElementById('shader-fs');
+
+       const Renderer = require('./renderer.js');
+       var renderer = new Renderer({
+           'canvasElement' : canvas,
+           'vertexShader' : vertexShader.text,
+           'fragmentShader' : fragmentShader.text,
+       });
+       renderer.render();
+    </script>
+  </body>
+</html>
