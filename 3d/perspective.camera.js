@@ -3,7 +3,7 @@
 
 /**
  * OpenGL camera management
- * @author Zamrony P. Juhara <zamronypj@yahoo.com>
+ * @author Welington Fernandes
  */
 
 var PerspectiveCamera = (function(){

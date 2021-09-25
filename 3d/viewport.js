@@ -3,7 +3,7 @@
 
 /**
  * OpenGL viewport management
- * @author Zamrony P. Juhara <zamronypj@yahoo.com>
+ * @author Welington Fernandes
  */
 
 var Viewport = (function(){

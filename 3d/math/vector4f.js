@@ -3,6 +3,7 @@
 
 /**
  * Thin wrapper for vector 1x4 for 3D transformation
+ * @author Welington Fernandes
  */
 var Vector4f = (function(){
 

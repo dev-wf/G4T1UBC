@@ -3,6 +3,7 @@
 
 /**
  * Wrapper class for initialize OpenGL
+ * * @author Welington Fernandes
  */
 var GLContext = (function() {
     var glInstance = null;

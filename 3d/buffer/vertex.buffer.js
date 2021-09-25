@@ -3,7 +3,7 @@
 
 /**
  * Wrapper for vertex buffer management
- * @author Zamrony P. Juhara <zamronypj@yahoo.com>
+ * @author Welington Fernandes
  */
 var Buffer = require('./buffer.js');
 

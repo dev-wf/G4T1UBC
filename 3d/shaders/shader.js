@@ -3,7 +3,7 @@
 
 /**
  * Thin wrapper for OpenGL shader
- * @author zamroni <zamroni@dominopos>
+ * @author Welington Fernandes
  */
 var Shader = (function(){
     /**

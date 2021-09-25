@@ -3,7 +3,7 @@
 
 /**
  * Thin wrapper for OpenGL shader compilation status reporting
- * @author zamroni <zamroni@dominopos>
+ * @author Welington Fernandes
  */
 
 var ShaderCompilationStatus = (function(){

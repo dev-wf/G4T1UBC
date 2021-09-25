@@ -1,4 +1,4 @@
-# webgl-electron
+# G4T1UBC
 
 **Clone and run for a quick way to see Electron in action.**
 
@@ -20,7 +20,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/zamronypj/webgl-electron
+git clone https://github.com/CodWF/G4T1UBC.git
 # Go into the repository
 cd webgl-electron
 # Install dependencies
@@ -29,7 +29,6 @@ npm install
 npm start
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
 ## Resources for Learning Electron
 

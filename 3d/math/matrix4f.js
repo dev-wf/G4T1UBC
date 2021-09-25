@@ -3,6 +3,7 @@
 
 /**
  * Thin wrapper for matrix 4x4 for 3D matrix transformation
+ * @author Welington Fernandes
  */
 var Matrix4f = (function(){
 
